@@ -76,7 +76,7 @@ public class DriverSocketClient {
                 mConnector.getFilterChain().addLast("codec",
                         new ProtocolCodecFilter(new TextLineCodecFactory(Charset.forName("UTF-8"))));
                 mConnector.setConnectTimeoutMillis(10000);
-                ConnectFuture future = mConnector.connect(new InetSocketAddress("192.168.0.106", 9988));
+                ConnectFuture future = mConnector.connect(new InetSocketAddress("172.24.135.124", 9988));
                 future.awaitUninterruptibly();
                 try {
                     mSession = future.getSession();

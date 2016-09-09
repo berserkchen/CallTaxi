@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest package="com.chaoyang805.calltaxi"
     xmlns:android="http://schemas.android.com/apk/res/android">
-
+    <!-- 这个权限用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <!-- 这个权限用于访问GPS定位-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
@@ -22,7 +25,7 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="hG1snxZWRqGG1NR9bolN24Pm"/>
+            android:value="ZAGSHz4m4DYmmdhuRhDCjvmQx6HYScFq"/>
         <activity
             android:name=".ui.MapActivity"
             android:theme="@style/AppTheme.NoActionBar">

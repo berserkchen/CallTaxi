@@ -28,7 +28,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <meta-data android:name="com.baidu.lbsapi.API_KEY"
-            android:value="vhj5G0sWyuFbhBHBppuoau7N"/>
+            android:value="7xFBmkWppFQsV3mnUY4322IMH4PEqjeS"/>
         <activity
             android:name=".ui.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
